@@ -1,0 +1,104 @@
+name: untitled
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  percent_indicator: 4.2.2
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - assets/8cbe08ed5efc6a3efa5cafe1be45104e.gif
+   - assets/2fabf3ceb5a35b51a70e27137d56e4d2.gif
+   - assets/image_processing20200810-29265-bud3le.gif
+   - assets/w_cufsono_016.gif
+   - assets/72GX.gif
+   - assets/linum-gif.gif
+   - assets/original-7b7e7381eecf1bb5fda9036d205d6ed0.jpg
+   - assets/original-fc277b7e84dcb94f3e31dc57e6e6f4c9.jpg
+   - assets/Screenshot 2022-07-18 184542.png
+   - assets/photo_2022-07-19_12-23-08.jpg
+   - assets/30afbd78837845.5cb056e2c2a0a.gif
+   - assets/untitled-nhg-01_4x.jpg
+   - assets/008f2ec9b01f0b3556622bd82a44abe6.jpg
+   - assets/040828259b15aa838bfc68b664051db0.jpg
+   - assets/17e56a9e3a12aa55c1732cefa29d0355.jpeg
+   - assets/2b524838094f3ba96d312f477f8d07fe.png
+   - assets/image_processing20210521-10039-1hqtcbf.png
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  #fonts:
+   #- family: Schyler
+    # fonts:
+   #- asset: fonts/Schyler-Regular.ttf
+  # - asset: fonts/Schyler-Italic.ttf
+   #  style: italic
+ #  - family: Trajan Pro
+     #fonts:
+   #- asset: fonts/TrajanPro.ttf
+   #- asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
