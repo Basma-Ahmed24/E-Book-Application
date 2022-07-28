@@ -7,14 +7,14 @@ import 'Navigation_Bar.dart';
 import '../component.dart';
 import '../blocs/cubit.dart';
 
-class History extends StatelessWidget {
+class ComputerScience extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
     return BlocConsumer<bookscubit, bookstates>(
         listener: (context, state) {},
         builder: (context, state) {
-          var list = bookscubit.get(context).history;
+          var list = bookscubit.get(context).computer;
           return Scaffold(
               body: Column(
                   mainAxisAlignment: MainAxisAlignment.start,
@@ -26,21 +26,19 @@ class History extends StatelessWidget {
                 ),
                 Row(children: [
                   IconButton(
-                      icon: Icon(
-                        Icons.arrow_back_ios_sharp,
-                      ),
+                      icon: Icon(Icons.arrow_back_ios_sharp),
                       onPressed: () {
                         navigateto(context, MyNavigationBar());
                       }),
                   SizedBox(
-                    width: 110,
+                    width: 40,
                   ),
                   Text(
-                    "History",
+                    "Computer Science",
                     style: Theme.of(context).textTheme.headline1,
                   ),
                   SizedBox(
-                    width: 90,
+                    width: 38,
                   ),
                   IconButton(
                       icon: Icon(
@@ -59,7 +57,7 @@ class History extends StatelessWidget {
                         //set border radius to 50% of square height and width
                         image: DecorationImage(
                           image: AssetImage(
-                              "assets/original-4186a286645b53d39a7d9df81ff042ed.jpg"),
+                              "assets/fa691691526776c99476dc53a2b3d486.png"),
                           fit: BoxFit.cover,
                         ))),
                 Expanded(
@@ -70,7 +68,7 @@ class History extends StatelessWidget {
                             itemBuilder: (context, index) =>
                                 buildBook(list[index], context),
                             separatorBuilder: (context, index) => Dividor(),
-                            itemCount: bookscubit.get(context).history.length,
+                            itemCount: bookscubit.get(context).computer.length,
                           ),
                       fallback: (context) =>
                           Center(child: CircularProgressIndicator())),

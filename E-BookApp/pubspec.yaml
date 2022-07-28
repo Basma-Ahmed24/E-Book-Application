@@ -29,6 +29,7 @@ environment:
 dependencies:
   percent_indicator: 4.2.2
   json_serializable: ^6.3.1
+  sqflite: ^2.0.3
   flutter:
     sdk: flutter
 
@@ -41,6 +42,9 @@ dependencies:
   flutter_bloc: ^8.0.1
   conditional_builder_null_safety: ^0.0.6
   dio: ^4.0.6
+  webview_flutter_plus: ^0.3.0+2
+  flutter_inappwebview: ^5.4.3+7
+  provider: ^6.0.2
 dev_dependencies:
 
   flutter_test:
@@ -77,7 +81,7 @@ flutter:
    - assets/photo_2022-07-19_12-23-08.jpg
    - assets/original-4186a286645b53d39a7d9df81ff042ed.jpg
    - assets/untitled-nhg-01_4x.jpg
-
+   - assets/image_processing20200213-19308-g7nxqo.gif
    - assets/040828259b15aa838bfc68b664051db0.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
