@@ -238,7 +238,7 @@ class Homescreen extends StatelessWidget {
                                           buildBook(list[index], context),
                                       separatorBuilder: (context, index) =>
                                           Dividor(),
-                                      itemCount: 20,
+                                      itemCount: list.length,
                                     ),
                                 fallback: (context) =>
                                     Center(child: CircularProgressIndicator())),

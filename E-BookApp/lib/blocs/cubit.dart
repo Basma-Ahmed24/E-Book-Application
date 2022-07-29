@@ -120,14 +120,14 @@ class bookscubit extends Cubit<bookstates> {
     print(database.toString());
   }
 
-  void insertToDatabase({
+  Future <void> insertToDatabase ({
     required String id,
     required String title,
     required String subtitle,
     required String authors,
     required String image,
   })
-  {
+  async {
     database.transaction((txn)
     {
       txn.rawInsert(
@@ -165,8 +165,8 @@ class bookscubit extends Cubit<bookstates> {
 
     emit(ChangeBottomFavState());
   }
-  void initialize(){
-    createDatabase();
+  Future<void> initialize()async{
+   await createDatabase();
     recentBooks();
     print("initialize");
   }

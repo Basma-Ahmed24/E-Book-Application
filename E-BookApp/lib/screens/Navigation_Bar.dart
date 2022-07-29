@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:untitled/screens/favourite.dart';
 import 'package:untitled/screens/HomeScreen.dart';
 import 'package:untitled/screens/search.dart';
-
 import 'favourite.dart';
 
 class MyNavigationBar extends StatefulWidget {
