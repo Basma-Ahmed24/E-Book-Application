@@ -1,8 +1,21 @@
 # E-Book-Application
+# Describtion
+It is an E-Book Application which can enable user to read books , search , add to favourite from spacific categories  
+I used the following tools to finish this application:
+1- Dart programming language
+2- Flutter
+3- Blocs
+4- Api
+5-Sqflite
+6-Android Studio
 # Welcome Page
+the first screan will appear to the user
 ![Screenshot_20220729_022920](https://user-images.githubusercontent.com/105160104/183111364-9a54ea45-0335-4480-9884-202b508148d2.png)
 # Home Page 
+1- Dark mode
+this is the home page which has dark and light mood icon , recent books added and Navigation Bar to move to favourite and search screens
 ![Screenshot_20220729_023021](https://user-images.githubusercontent.com/105160104/183110634-111a7791-2d1c-4a69-ac58-e9e9ffa64584.png)
+Light mode
 ![Screenshot_20220729_023402](https://user-images.githubusercontent.com/105160104/183111459-dca7a592-4d95-4ce2-b3a7-adf2acefd742.png)
 #Categories
 ![Screenshot_20220729_023102](https://user-images.githubusercontent.com/105160104/183111621-132a85f7-3f2f-4f3b-ae22-fcfa04148a51.png)
@@ -20,3 +33,4 @@
 ![Screenshot_20220729_023500](https://user-images.githubusercontent.com/105160104/183253460-3acfe8e9-1239-4664-90f2-30ec462b8068.png)
 ![Screenshot_20220729_023320](https://user-images.githubusercontent.com/105160104/183253471-b0ea7cf9-d60a-44c0-b6a1-1d0f5f1980a2.png)
 ![Screenshot_20220805_175250](https://user-images.githubusercontent.com/105160104/183253479-07822359-8d7d-406c-ab85-97476d9a344d.png)
+![Screenshot_20220805_175113](https://user-images.githubusercontent.com/105160104/183253510-f3e93189-1219-45e6-b505-ebc87c8074b0.png)
