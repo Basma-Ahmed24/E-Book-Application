@@ -17,11 +17,10 @@
 ![Screenshot_20220729_023021](https://user-images.githubusercontent.com/105160104/183110634-111a7791-2d1c-4a69-ac58-e9e9ffa64584.png)
 # Light mode
 ![Screenshot_20220729_023402](https://user-images.githubusercontent.com/105160104/183111459-dca7a592-4d95-4ce2-b3a7-adf2acefd742.png)
-#Categories
+# Categories
+# there is an search icon for searching about any book in this category
 ![Screenshot_20220729_023102](https://user-images.githubusercontent.com/105160104/183111621-132a85f7-3f2f-4f3b-ae22-fcfa04148a51.png)
-
 ![Screenshot_20220805_175047](https://user-images.githubusercontent.com/105160104/183253184-7dfcd4ea-c792-4a7a-b59a-0c2ed9431dd6.png)
-
 ![Screenshot_20220805_175302](https://user-images.githubusercontent.com/105160104/183253201-f01fed3f-b61a-422c-a9ae-91933e65e2a5.png)
 ![Screenshot_20220805_175256](https://user-images.githubusercontent.com/105160104/183253216-b7c4ee40-f610-4c11-81b4-72b562155727.png)
 ![Screenshot_20220729_023110](https://user-images.githubusercontent.com/105160104/183253220-f5ffe795-3888-4460-860a-5a67a925e1b6.png)
